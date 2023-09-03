@@ -1,0 +1,91 @@
+body {
+  margin: 0px;
+  padding: 10px 100px;
+}
+
+.header {
+  padding: 25px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.header_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 50px;
+}
+.header_nav_item {
+  font-size: 20px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.page_first-page_background {
+  position: relative;
+  display: flex;
+}
+@media (max-width: 930px) {
+  .page_first-page_background {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.page_first-page_background_img {
+  width: 90vw;
+}
+.page_first-page_background_content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: flex-end;
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  box-shadow: 5px 5px 20px 0px black;
+}
+@media (max-width: 930px) {
+  .page_first-page_background_content {
+    position: relative;
+    align-self: center;
+  }
+}
+.page_first-page_background_content_button {
+  background-color: #253745;
+  color: white;
+  height: 40px;
+  width: 100px;
+  align-self: flex-start;
+}
+.page_second-page {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 100px;
+}
+.page_second-page_about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 500px;
+}
+.page_second-page_about-me_button {
+  align-self: flex-start;
+  width: 130px;
+  height: 40px;
+  font-size: 20px;
+  background-color: white;
+  border: 2px solid gray;
+}
+@media (max-width: 930px) {
+  .page_second-page {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
